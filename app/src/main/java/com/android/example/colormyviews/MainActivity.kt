@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
             R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
             R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
+//            R.id.box_one_text -> view.setBackgroundResource(R.drawable.u1)
+//            R.id.box_two_text -> view.setBackgroundResource(R.drawable.u2)
+//            R.id.box_three_text -> view.setBackgroundResource(R.drawable.u3)
+//            R.id.box_four_text -> view.setBackgroundResource(R.drawable.u4)
+//            R.id.box_five_text -> view.setBackgroundResource(R.drawable.u5)
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
 
